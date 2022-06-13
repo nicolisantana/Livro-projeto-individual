@@ -1,0 +1,37 @@
+.azul{
+    position: absolute;
+    width: 1440px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #0AB3D8 0%, rgba(10, 179, 216, 0.0104167) 90.62%, rgba(10, 179, 216, 0) 100%);
+}
+
+.img{
+    position:absolute;
+    width: 156px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+    background: url(05151feff30c08e5a70634563bd6741f.png)
+}
+
+.menu{
+    position: absolute;
+width: 156px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #035B56;
+}
+.bloco_text{
+    position: absolute;
+    width: 1284px;
+    height: 920px;
+    left: 156px;
+    top: 89px;
+    
+    background: #78F8D9;
+}
