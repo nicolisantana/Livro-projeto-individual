@@ -1,37 +1,405 @@
-.azul{
-    position: absolute;
-    width: 1440px;
-    height: 128px;
-    left: 0px;
-    top: 0px;
-
-    background: linear-gradient(180deg, #0AB3D8 0%, rgba(10, 179, 216, 0.0104167) 90.62%, rgba(10, 179, 216, 0) 100%);
+#fundo{
+    position: relative;
+    width: 1350px;
+    height: 760px;
+background-image: url(css/fundo1.jpg);
 }
+.cima{
+position: absolute;
+width: 1166px;
+height: 125px;
+left: 191px;
+top: 08px;
 
-.img{
-    position:absolute;
-    width: 156px;
-    height: 128px;
-    left: 0px;
-    top: 0px;
-    background: url(05151feff30c08e5a70634563bd6741f.png)
-}
-
-.menu{
-    position: absolute;
-width: 156px;
-height: 1024px;
-left: 0px;
-top: 0px;
-
-background: #035B56;
-}
-.bloco_text{
-    position: absolute;
-    width: 1284px;
-    height: 920px;
-    left: 156px;
-    top: 89px;
+background: #74696542;
     
-    background: #78F8D9;
 }
+.ellipse{
+    position: absolute;
+    width: 69px;
+    height: 66px;
+    left: 1182px;
+    top: 28px;
+    border-radius: 200px;
+    background: #EED888;
+    }
+    
+    .ellipse2{
+    
+    position: absolute;
+    width: 69px;
+    height: 66px;
+    left: 1266px;
+    top: 28px;
+    border-radius: 200px;
+    background: #ECEE88;
+    }
+    
+    .menu{
+        position: absolute;
+        width: 184px;
+        height: 514px;
+        left: 0px;
+        top: 125px;
+        
+        background: rgba(172, 159, 156, 0.63);
+        position: absolute;
+    width: 164px;
+    height: 469px;
+    left: 9px;
+    top: 138px;
+
+    font-family: 'Aksara Bali Galang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: center;
+
+color: #000000;
+    }
+    
+    .baixo{
+        position: absolute;
+        width: 1354px;
+        height: 127px;
+        left: 06px;
+        top: 639px;
+        
+        background: #74696542;
+    }
+    
+    #logo{
+        position: absolute;
+        width: 184px;
+        height: 125px;
+        left: 0px;
+        top: 0px;
+        
+        background: url(logo.jpg);
+    }
+    
+    .texto-sobre{
+        position: absolute;
+    width: 658px;
+    height: 97px;
+    left: 446px;
+    top: 125px;
+    
+    font-family: 'Aksara Bali Galang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 130px;
+    text-align: center;
+    
+    color: #000000;
+    }
+
+    #foto{
+ position: absolute;
+width: 125px;
+height: 163px;
+left: 321px;
+top: 217px;
+
+background: url(kiera.jpg);
+    }
+
+    .caixa1{
+        position: absolute;
+        width: 770px;
+        height: 316px;
+        left: 496px;
+        top: 234px;
+        
+        background: rgba(23, 1, 1, 0.66);
+        border-radius: 53px;
+    }
+
+    .texto1{
+        position: absolute;
+width: 716px;
+height: 204px;
+left: 523px;
+top: 206px;
+
+font-family: 'Aladin';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+    }
+
+    .sobre{
+    position: absolute;
+    width: 650px;
+    height: 97px;
+    left: 446px;
+    top: 75px;
+
+    font-family: 'Aladin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px #07718bf1;
+    }
+    .texto2-1{
+        position: absolute;
+        width: 716px;
+        height: 204px;
+        left: 523px;
+        top: 190px;
+        
+        font-family: 'Aladin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 43px;
+        
+        color: #FFFFFF;
+        
+    }
+    .caixa2{
+        position: absolute;
+        width: 865px;
+        height: 448px;
+        left: 446px;
+        top: 191px;
+
+        background: rgba(23, 1, 1, 0.66);
+        border-radius: 53px;
+    }
+    #casta{
+    position: absolute;
+    width: 125px;
+    height: 163px;
+    left: 273px;
+    top: 209px;
+
+    background: url(castas.jpg);
+    }
+    .sobre1{
+        position: absolute;
+        width: 660px;
+        height: 100px;
+        left: 450px;
+        top: 55px;
+
+        font-family: 'Aladin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 78px;
+        text-align: center;
+
+        color: #000000;
+
+        text-shadow: 0px 4px 4px #07718bf1;
+
+    }
+    #livro{
+        position: absolute;
+        width: 197px;
+        height: 294px;
+        left: 211px;
+        top: 130px;
+
+        background: url(livro.jpg);
+    }
+    .caixa3{
+        position: absolute;
+        width: 895px;
+        height: 432px;
+        left: 427px;
+        top: 191px;
+
+        background: rgba(22, 11, 11, 0.66);
+        border-radius: 43px;
+    }
+    .texto3{
+        position: absolute;
+        width: 840px;
+        height: 361px;
+        left: 456px;
+        top: 183px;
+
+        font-family: 'Aladin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    #elite{
+        position: absolute;
+        width: 197px;
+        height: 294px;
+        left: 211px;
+        top: 130px;
+
+        background: url(elite.jpg);
+
+    }
+
+    .caixa4{
+        position: absolute;
+        width: 895px;
+        height: 432px;
+        left: 427px;
+        top: 191px;
+
+        background: rgba(22, 11, 11, 0.66);
+        border-radius: 43px;
+    }
+
+    .texto4{
+        position: absolute;
+        width: 840px;
+        height: 361px;
+        left: 456px;
+        top: 183px;
+
+        font-family: 'Aladin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    #escolha{
+        position: absolute;
+        width: 197px;
+        height: 294px;
+        left: 211px;
+        top: 130px;
+
+        background: url(elite.jpg);
+    }
+
+    .caixa5{
+        position: absolute;
+        width: 895px;
+        height: 432px;
+        left: 427px;
+        top: 191px;
+
+        background: rgba(22, 11, 11, 0.66);
+        border-radius: 43px;
+    }
+
+    .texto5{
+        position: absolute;
+        width: 840px;
+        height: 361px;
+        left: 456px;
+        top: 183px;
+
+        font-family: 'Aladin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    #america{
+        position: absolute;
+        width: 197px;
+        height: 202px;
+        left: 259px;
+        top: 197px;
+
+    }
+
+    .caixa6{
+        position: absolute;
+        width: 747px;
+        height: 391px;
+        left: 519px;
+        top: 223px;
+
+        background: rgba(22, 11, 11, 0.66);
+        border-radius: 43px;
+    }
+
+    .texto6{
+        position: absolute;
+        width: 704px;
+        height: 305px;
+        left: 538px;
+        top: 258px;
+
+        font-family: 'Aladin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    #aspen{
+        position: absolute;
+        width: 197px;
+        height: 202px;
+        left: 259px;
+        top: 197px;
+    }
+    .caixa7{
+        position: absolute;
+        width: 747px;
+        height: 391px;
+        left: 519px;
+        top: 223px;
+
+        background: rgba(22, 11, 11, 0.66);
+        border-radius: 43px;
+    }
+
+.texto7{
+    position: absolute;
+    width: 704px;
+    height: 305px;
+    left: 538px;
+    top: 258px;
+
+    font-family: 'Aladin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#maxon{
+    position: absolute;
+    width: 197px;
+    height: 202px;
+    left: 259px;
+    top: 197px;
+}
+
+
+
